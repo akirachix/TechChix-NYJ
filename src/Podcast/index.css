@@ -1,0 +1,146 @@
+.podcast{
+    display: flex;
+    padding-top: 5%;
+    background-color: rgb(63, 63, 156);
+    }
+    .pod img{
+        width: 70%;
+        margin-left: 80px;
+        border-radius: 20px;
+        margin-top: -28px;
+    }
+    .text{
+        color: aliceblue;
+        margin-right: 20%;
+        font-style: oblique;
+    }
+    .text h2{
+        font-size: 45px;
+    
+    }
+    
+    .text h3{
+        font-size: 20px;
+    }
+    button{
+        padding: 12px 35px;
+        border-radius: 20px;
+        border-color: aqua;
+        
+    }
+    .text{
+        margin-top: 20px;
+    }
+    
+    @media (max-width:480px){
+        .podcast{
+            padding-top: 5%;
+            background-color: rgb(63, 63, 156);
+            display: block;
+            }
+            .pod img{
+                width: 80%;
+                margin-left: 10%;
+                border-radius: 20px;
+                margin-top: 2px;
+            }
+            .text{
+                color: aliceblue;
+                margin-left: 20%;
+                font-style: oblique;
+            }
+            
+            .text h2{
+                font-size: 20px;
+            
+            }
+            
+            .text h3{
+                font-size: 5px;
+            }
+            button{
+                padding: 12px 35px;
+                border-radius: 20px;
+                border-color: aqua;
+                
+            }
+            .text{
+                margin-top: 20px;
+            } 
+    }
+    
+    @media (min-width: 481px) and (max-width: 767px) {
+        .podcast{
+            padding-top: 5%;
+            background-color: rgb(63, 63, 156);
+            display: block;
+            }
+            .pod img{
+                width: 80%;
+                margin-left: 10%;
+                border-radius: 20px;
+                margin-top: 2px;
+            }
+            .text{
+                color: aliceblue;
+                margin-left: 20%;
+                font-style: oblique;
+            }
+            
+            .text h2{
+                font-size: 20px;
+            
+            }
+            
+            .text h3{
+                font-size: 5px;
+            }
+            button{
+                padding: 12px 35px;
+                border-radius: 20px;
+                border-color: aqua;
+                
+            }
+            .text{
+                margin-top: 20px;
+            }  
+    }
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        podcast{
+            display: flex;
+            padding-top: 5%;
+            background-color: rgb(63, 63, 156);
+            }
+            .pod img{
+                width: 80%;
+                margin-left: 80px;
+                border-radius: 20px;
+                margin-top: -28px;
+            }
+            .text{
+                color: aliceblue;
+                margin-right: 20%;
+                font-style: oblique;
+            }
+            
+            .text h2{
+                font-size: 45px;
+            
+            }
+            
+            .text h3{
+                font-size: 20px;
+            }
+            button{
+                padding: 12px 35px;
+                border-radius: 20px;
+                border-color: aqua;
+                
+            }
+            .text{
+                margin-top: 20px;  
+    }
+    }
+    
+    
