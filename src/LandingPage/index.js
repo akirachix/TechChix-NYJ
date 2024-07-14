@@ -7,7 +7,7 @@ const LandingPage = () => {
 
 <div className='main'>
   <div>
-    <img src='/images/podcast.png' alt=''/>
+    <img id='image' src='/images/podcast.png' alt=''/>
   </div>
       <div className="content">
         <h1 className='header'>Explore and engage with our insights</h1>
