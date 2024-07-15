@@ -1,0 +1,415 @@
+.content{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.main{
+    display: flex;
+}
+.header{
+    font-size: 100px;
+    
+}
+.your-source{
+    font-size: x-large;
+
+}
+button{
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 18px 34px;
+    font-size: 15px;
+    background: rgb(240, 118, 118);
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+}
+button:hover{
+    border: 1px solid #241717;
+    background: #241717;
+    transition: 1s;
+}
+
+
+
+@media screen and (min-width: 280px) and (max-width: 360px){
+.content{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    font-size: 30px;
+   
+}
+#image{
+    height: 20%;
+    width: 100%;
+}
+.your-source{
+    font-size: 15px;
+
+}
+button{
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    background: rgb(240, 118, 118);
+    position: relative;
+    cursor: pointer;
+    border-radius: 15px;
+}
+button:hover{
+    border: 1px solid #241717;
+    background: #241717;
+    transition: 1s;
+}
+}
+
+@media screen and (min-width: 361px) and (max-width: 390px){
+    .content{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        font-size: 25px;
+       
+    }
+    #image{
+        height: 20%;
+        width: 100%;
+    }
+    .your-source{
+        font-size: 15px;
+    
+    }
+    button{
+        display: inline;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        font-size: 15px;
+        background: rgb(240, 118, 118);
+        position: relative;
+        cursor: pointer;
+        border-radius: 15px;
+        margin-left: 80px;
+    }
+    button:hover{
+        border: 1px solid #241717;
+        background: #241717;
+        transition: 1s;
+    }
+    }
+
+ @media screen and (min-width: 391px) and (max-width: 450px){
+        .content{
+            margin-left: 5%;
+            margin-top: 5%;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+        .header{
+            font-size: 25px;
+           
+        }
+        #image{
+            height: 20%;
+            width: 100%;
+        }
+        .your-source{
+            font-size: 15px;
+        
+        }
+        button{
+            display: inline;
+            text-decoration: none;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 10px 20px;
+            font-size: 15px;
+            background: rgb(240, 118, 118);
+            position: relative;
+            cursor: pointer;
+            border-radius: 15px;
+            margin-left: 90px;
+        }
+        button:hover{
+            border: 1px solid #241717;
+            background: #241717;
+            transition: 1s;
+        }
+        }
+
+        @media screen and (min-width: 451px) and (max-width: 550px){
+            .content{
+                margin-left: 5%;
+                margin-top: 5%;
+            }
+            .main{
+                display: flex;
+                flex-direction: column;
+            }
+            .header{
+                font-size: 25px;
+               
+            }
+            #image{
+                height: 20%;
+                width: 100%;
+            }
+            .your-source{
+                font-size: 15px;
+            
+            }
+ button{
+                display: inline;
+                text-decoration: none;
+                color: #fff;
+                border: 1px solid #fff;
+                padding: 10px 20px;
+                font-size: 15px;
+                background: rgb(240, 118, 118);
+                position: relative;
+                cursor: pointer;
+                border-radius: 15px;
+                margin-left: 0px;
+ }
+ button:hover{
+ border: 1px solid #241717;
+ background: #241717;
+ transition: 1s;
+  }
+ }
+
+ @media screen and (min-width: 820px) and (max-width: 950px){
+    .content{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        font-size: 50px;
+       
+    }
+    #image{
+        height: 20%;
+        width: 80%;
+        margin-left:80px ;
+    }
+    .your-source{
+        font-size: 25px;
+    
+    }
+button{
+        display: inline;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        font-size: 15px;
+        background: rgb(240, 118, 118);
+        position: relative;
+        cursor: pointer;
+        border-radius: 15px;
+        margin-left: 280px;
+}
+button:hover{
+border: 1px solid #241717;
+background: #241717;
+transition: 1s;
+}
+}
+@media screen and (min-width: 720px) and (max-width: 800px){
+    .content{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .header{
+        font-size: 50px;
+       
+    }
+    #image{
+        height: 20%;
+        width: 80%;
+        margin-left:80px ;
+    }
+    .your-source{
+        font-size: 25px;
+    
+    }
+button{
+        display: inline;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        font-size: 15px;
+        background: rgb(240, 118, 118);
+        position: relative;
+        cursor: pointer;
+        border-radius: 15px;
+        margin-left: 280px;
+}
+button:hover{
+border: 1px solid #241717;
+background: #241717;
+transition: 1s;
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+    .content{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .main{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .header{
+        font-size: 50px;
+       
+    }
+    #image{
+        height: 80%;
+        width: 100%;
+        /* margin-left:80px ; */
+    }
+    .your-source{
+        font-size: 20px
+    
+    }
+button{
+        display: inline;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        font-size: 15px;
+        background: rgb(240, 118, 118);
+        position: relative;
+        cursor: pointer;
+        border-radius: 15px;
+        margin-left: 5px;
+}
+button:hover{
+border: 1px solid #241717;
+background: #241717;
+transition: 1s;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1400px){
+    .content{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .main{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .header{
+        font-size: 50px;
+       
+    }
+    #image{
+        height: 80%;
+        width: 100%;
+        /* margin-left:80px ; */
+    }
+    .your-source{
+        font-size: 20px
+    
+    }
+button{
+        display: inline;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px 20px;
+        font-size: 15px;
+        background: rgb(240, 118, 118);
+        position: relative;
+        cursor: pointer;
+        border-radius: 15px;
+        margin-left: 5px;
+}
+button:hover{
+border: 1px solid #241717;
+background: #241717;
+transition: 1s;
+}
+}
+
+@media screen and (min-width: 280px) and (max-width: 280px){
+    .content{
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .main{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .header{
+        font-size: 20px;
+        margin-left: 10px;
+       
+    }
+    #image{
+        height: 80%;
+        width: 100%;
+        /* margin-left:80px ; */
+    }
+    .your-source{
+        font-size: 15px;
+        margin-left: 10px;
+    
+    }
+button{
+        display: inline;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+        font-size: 15px;
+        background: rgb(240, 118, 118);
+        position: relative;
+        cursor: pointer;
+        border-radius: 15px;
+        margin-left: 10px;
+}
+button:hover{
+border: 1px solid #241717;
+background: #241717;
+transition: 1s;
+}
+}
+
+
+
+
+
+
+
