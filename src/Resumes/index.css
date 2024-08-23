@@ -7,15 +7,30 @@
     
    
 }
+#portfolio-image{
+    width: 60px;
+    height: 60px;
+    gap: 50px;
+    display: flex;
+
+/* justify-content: space-around; */
+}
+#insta{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    /* margin-left: 600px; */
+}
 a{
     text-decoration: none;
     color: white;
-    font-size: 19px;
+    font-size: 24px;
 }
 .team{
-    color: #7DAB08;
+    /* color: #7DAB08; */
     /* text-align: center; */
     margin-left: 830px;
+    color: white;
     font-size: 36px;
     margin-top: 0px;
 }
@@ -60,8 +75,22 @@ h6{
     display: flex;
     justify-content: space-between;
 }
+#footer-sentence{
+    margin-left: 780px;
+}
+.footer{
+background-color: white;
+height: 50px;
+}
+h9{
+    margin-left: 700px;
+    font-size: 20px;
+}
+.portfolio-images{
+display: flex;
+margin-left: 850px;
 
-
+}
 @media screen and (min-width:280px) and (max-width:299px){
     h2{
         font-size: 30px;
@@ -103,7 +132,7 @@ h6{
         justify-content: space-between;
     }
     .team{
-        margin-left: 110px;
+        margin-left: 85px;
         font-size: 24px;
     }
     h5{
@@ -129,6 +158,23 @@ h6{
     #nthenya{
         margin-left: 19%;
 
+    }
+    #footer-sentence{
+        margin-left: 15px;
+        font-size: 2%;
+    }
+    .footer{
+    background-color: white;
+    height: 50px;
+    }
+    h9{
+        margin-left: 19px;
+        font-size: 13px;
+    }
+    .portfolio-images{
+    display: flex;
+    margin-left: 70px;
+    
     }
 }
 
@@ -170,47 +216,27 @@ h6{
         justify-content: space-between;
     }
     .team{
-        margin-left: 110px;
+        margin-left: 75px;
+    }
+    #footer-sentence{
+        margin-left: 40px;
+        font-size: 10%;
+    }
+    .footer{
+    background-color: white;
+    height: 50px;
+    }
+    h9{
+        margin-left: 14px;
+        font-size: 15px;
+    }
+    .portfolio-images{
+    display: flex;
+    margin-left: 80px;
+    
     }
 }
 
-
-/* @media  screen and (min-width:412px) and (max-width:430px){
-    h2{
-        font-size: 30px;
-    }
-
-    .team-section{
-        background-image: linear-gradient(to right, #0F2A4F, #0F2A4F, #7DAB08);
-        width: 105%;
-       
-    }
-    
-    
-    .images{
-        flex-direction: column;
-        align-items: center;
-        padding-left: 10px;
-    }
-    
-    .caption{
-        font-size: 1rem;
-    }
-    
-    .image-bottom{
-        flex-direction: column;
-        align-items: center;
-        padding-left: 10px;
-    }
-    
-    .our-team img{
-        width: 180px;
-        gap: 10%;
-        border-radius: 50%;
-        display: flex;
-        justify-content: space-between;
-    }
-} */
 
 @media screen and (min-width:400px) and (max-width:480px){
     h2{
@@ -281,12 +307,116 @@ h6{
         justify-content: space-between;
     }
     .team{
-        margin-left: 340px;
+        margin-left: 320px;
         font-size: 70px;
     }
+    #footer-sentence{
+        margin-left: 200px;
+    }
+    .footer{
+    background-color: white;
+    height: 50px;
+    }
+    h9{
+        margin-left: 200px;
+        font-size: 20px;
+    }
+    .portfolio-images{
+    display: flex;
+    margin-left: 300px;
+    
+    }
 }
+     
+@media screen and (min-width:412px) and (max-width:414px){
+    h2{
+        font-size: 30px;
+    }
+    .caption{
+        font-size: 30px;
+    }
 
+    .team-section{
+        background-image: linear-gradient(to right, #0F2A4F, #0F2A4F);
+        width: 223%;
+       
+    }
+    
+    
+    .images{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+    }
+    h5{
+        font-size: 42px;
+    
+    }
+    p{
+        font-size: 44px;
+    }
+    #fay{
+        margin-left: 9%;
+        width: 350px;
+        height: 350px;
+    }
+    #mauren{
+        margin-left: 9%;
+        width: 350px;
+        height: 350px;
+    }
+    #adhiambo{
+        margin-left: 9%;
+        width: 350px;
+        height: 350px;
 
+    }
+    #staice{
+        margin-left: 9%;
+        width: 350px;
+        height: 350px;
+
+    }
+    #nthenya{
+        margin-left: 9%;
+        width: 350px;
+        height: 350px;
+
+    }
+    .image-bottom{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10px;
+    }
+    
+    .our-team img{
+        width: 180px;
+        gap: 10%;
+        border-radius: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .team{
+        margin-left: 250px;
+        font-size: 70px;
+    }
+    #footer-sentence{
+        margin-left: 200px;
+    }
+    .footer{
+    background-color: white;
+    height: 50px;
+    }
+    h9{
+        margin-left: 200px;
+        font-size: 20px;
+    }
+    .portfolio-images{
+    display: flex;
+    margin-left: 300px;
+    
+    }
+}
 @media screen and (min-width:490px) and (max-width:539px){
     h2{
         font-size: 30px;
@@ -330,49 +460,6 @@ h6{
     font-size: 23px;
 }
 }
-/* @media screen and (min-width:540px) and (max-width:564px){
-    h2{
-        font-size: 30px;
-    }
-
-    .team-section{
-        background-image: linear-gradient(to right, #0F2A4F, #0F2A4F, #7DAB08);
-        width: 105%;
-       
-    }
-    
-    
-    .images{
-        flex-direction: column;
-        align-items: center;
-        padding-left: 10px;
-    }
-    
-    .caption{
-        font-size: 1rem;
-    }
-   
-    .image-bottom{
-        flex-direction: column;
-        align-items: center;
-        padding-left: 10px;
-    }
-    
-    .our-team img{
-        width: 180px;
-        gap: 10%;
-        border-radius: 50%;
-        display: flex;
-        justify-content: space-between;
-    }
-
-.team{
-    color: #7DAB08;
-    /* text-align: center; */
-    /* margin-left: 120px;
-    font-size: 23px;
-}
-} */ 
 
 @media screen and (min-width:565px) and (max-width:768px){
     h2{
@@ -413,6 +500,22 @@ h6{
     .team{
         margin-left: 300px;
 
+    }
+    #footer-sentence{
+        margin-left: 250px;
+    }
+    .footer{
+    background-color: white;
+    height: 50px;
+    }
+    h9{
+        margin-left: 200px;
+        font-size: 20px;
+    }
+    .portfolio-images{
+    display: flex;
+    margin-left: 300px;
+    
     }
 }
 
@@ -488,6 +591,22 @@ h6{
         margin-left: 0px;
         margin-right: 50px;
     }
+    #footer-sentence{
+        margin-left: 280px;
+    }
+    .footer{
+    background-color: white;
+    height: 50px;
+    }
+    h9{
+        margin-left: 200px;
+        font-size: 20px;
+    }
+    .portfolio-images{
+    display: flex;
+    margin-left: 300px;
+    
+    }
 }
 
 @media screen and (min-width:1030px) and (max-width:1220px){
@@ -536,7 +655,7 @@ h6{
 
     .team-section{
         background-image: linear-gradient(to right, #0F2A4F, #0F2A4F);
-        width: 100%;
+        width: 99%;
        
     }
     
@@ -564,10 +683,26 @@ h6{
         justify-content: space-between;
     }
     .team{
-        margin-left: 450px;
+        margin-left: 410px;
     }
     .our-team{
         margin-left: 0px;
+    }
+    #footer-sentence{
+        margin-left: 350px;
+    }
+    .footer{
+    background-color: white;
+    height: 50px;
+    }
+    h9{
+        margin-left: 300px;
+        font-size: 20px;
+    }
+    .portfolio-images{
+    display: flex;
+    margin-left: 400px;
+    
     }
 }
 
@@ -586,7 +721,7 @@ h6{
     }
     #fay{
         margin-left: 15%;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     #mauren{
         margin-left: 15%;
@@ -606,7 +741,7 @@ h6{
     .images{
         flex-direction: row;
         align-items: center;
-        padding-left: 250px;
+        padding-left: 200px;
     }
     
     .caption{
@@ -625,6 +760,22 @@ h6{
         border-radius: 50%;
         display: flex;
         justify-content: space-between;
+    }
+    #footer-sentence{
+        margin-left: 550px;
+    }
+    .footer{
+    background-color: white;
+    height: 50px;
+    }
+    h9{
+        margin-left: 490px;
+        font-size: 20px;
+    }
+    .portfolio-images{
+    display: flex;
+    margin-left: 600px;
+    
     }
 }
 
@@ -659,6 +810,22 @@ h6{
         justify-content: space-between;
     }
     .team{
-        margin-left: 200px;
+        margin-left: 170px;
+    }
+    #footer-sentence{
+        margin-left: 130px;
+    }
+    .footer{
+    background-color: white;
+    height: 50px;
+    }
+    h9{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .portfolio-images{
+    display: flex;
+    margin-left: 170px;
+    
     }
 }

@@ -3,7 +3,7 @@ import './index.css';
 const Resumes = () => {
     return(
  <div className='team-section'>
-     <h2 className='team'>Our Team</h2>
+     <h2 className='team'>Our Portfolio</h2>
 
  <div className='our-team'>
    <div className='images'>
@@ -21,6 +21,7 @@ const Resumes = () => {
           <h5>Maureen Njango</h5>
           <p>Software Developer</p>
           <p><a href='https://trialcover.vercel.app/'> Portfolio</a></p>
+
         </div>
         </div>
 
@@ -29,6 +30,8 @@ const Resumes = () => {
     <div className='caption'>
        <h5>Megan Adhiambo</h5>
         <p>Software Developer</p>
+        <p><a href='https://portfolio-fzh7.vercel.app/'>Portfolio</a></p>
+
         </div>
         </div>
     </div>
@@ -39,6 +42,8 @@ const Resumes = () => {
      <div className='caption'>
        <h5>Loice Staice</h5>
          <p>Software Developer</p>
+         <p><a href=''>Portfolio</a></p>
+
          <p></p>
             </div>
            </div>
@@ -48,11 +53,25 @@ const Resumes = () => {
         <div className='caption'>
          <h5>Cynthia Nthenya</h5>
             <p>Software Developer</p>
+            <p><a href=''>Portfolio</a></p>
+
         </div>
         </div>
         </div>
         </div>
+        <div className='footer'>
+         <div id='footer-sentence'>
+         <p>Follow Us On Social Media</p>
+         </div>
+         <div className='portfolio-images'>
+         <img src = 'images/twitter.svg' alt='' id='portfolio-image'></img>
+         <img src = 'images/facebook.svg' alt='' id='portfolio-image'></img>
+         <img src = 'images/instagram.svg' alt='' id='insta'></img>
+         </div>
+         <h9>Copyright @ 2024 Quantum| All Rights Preserved</h9>
+         </div>
         </div>
+        
       
     )
 }
